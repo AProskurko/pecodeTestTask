@@ -1,0 +1,14 @@
+{
+  "name": "pecode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Artem Proskurko",
+  "license": "ISC",
+  "description": "AQA test task for Pecode IT company",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.5"
+  }
+}
