@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:alt": "USE_JSON=true npx playwright test"
+    "test:alt": "npx cross-env USE_JSON=true npx playwright test"
   },
   "keywords": [],
   "author": "Artem Proskurko",
@@ -12,7 +12,8 @@
   "description": "AQA test task for Pecode IT company",
   "devDependencies": {
     "@playwright/test": "^1.44.1",
-    "@types/node": "^20.14.5"
+    "@types/node": "^20.14.5",
+    "cross-env": "^7.0.3"
   },
   "dependencies": {
     "playwright": "^1.44.1"
