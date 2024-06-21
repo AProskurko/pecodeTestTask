@@ -1,6 +1,5 @@
 const { test, expect } = require("@playwright/test");
 const LoginPage = require("../jsFiles/loginPage.js");
-// const userData = require("../jsFiles/credentials");
 const useJson = process.env.USE_JSON || false;
 const userData = useJson
   ? require("../sources/credentialsAlt.json")
