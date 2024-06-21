@@ -15,6 +15,10 @@ Running the Tests
    npm test
 2. Run the Test Suite with Alternate Credentials
    npm run test:alt
+   2.1.  If Alternative test will not work, install cross-env
+         npm install cross-env --save-dev
+   2.2.  Run
+         npm run test:alt-cross
 
 Note on Test Cases
 - The test case checking the error message for a correct username with a wrong password is commented out. This test case is valid but requires a valid username to run. Once a valid username is added to credentials.js or credentialsAlt.json, you can uncomment and run this test.
